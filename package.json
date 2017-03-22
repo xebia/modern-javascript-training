@@ -1,0 +1,23 @@
+{
+  "name": "modern-javascript-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xebia/modern-javascript-training.git"
+  },
+  "keywords": [],
+  "author": [
+    "Gert Hengeveld <ghengeveld@xebia.com>",
+    "Norbert de Langen <ndelangen@xebia.com>"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xebia/modern-javascript-training/issues"
+  },
+  "homepage": "https://github.com/xebia/modern-javascript-training#readme"
+}
