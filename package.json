@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/xebia/modern-javascript-training/issues"
   },
-  "homepage": "https://github.com/xebia/modern-javascript-training#readme"
+  "homepage": "https://github.com/xebia/modern-javascript-training#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1"
+  }
 }

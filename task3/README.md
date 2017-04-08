@@ -22,6 +22,8 @@ module.exports = {
 };
 ```
 
+### Import syntax
+
 Get a module:
 ```
 const mathUtils = require('./math-utils');
