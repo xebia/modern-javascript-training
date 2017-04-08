@@ -1,16 +1,15 @@
-var print = message => console.log(message);
+const print = message => console.log(message);
 
-var end = () => "You have completed Task #2";
+const end = () => "You have completed Task #2";
 
-var personFactory;
+const personFactory = () => {};
 
 function main () {
-  var person1 = personFactory();
-  var person2 = personFactory('Jan');
+  const person1 = personFactory();
+  const person2 = personFactory('Jan');
 
-  print(person1.say('Hello!'));
-  print(person2.say('Hello!'));
-
+  print(person1.say('Hello!')); // Gert said "Hello!" at 13:37:00
+  print(person2.say('Hello!')); // Jan said "Hello!" at 00:42:01
   print(end())
 }
 
