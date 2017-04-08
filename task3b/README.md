@@ -13,27 +13,38 @@ npm install --global babel-node
 ```
 
 ## Task
-
+Rewrite the CommonJS syntaxt to ES modules syntax.
+The functionaly should stay unchanged.
+Run the code by: `babel-node main.js`
 
 ## tips:
 
 ### Exports syntax:
 
-A named export:
+A default export:
 ```
-module.exports = 'something';
+export default 'something';
 ```
 
 Multiple exports:
 ```
-module.exports = {
-  add: (a, b) => a + b,
-  multiply: (a, b) => a * b
-};
+export const add = (a, b) => a + b;
+export const multiply = (a, b) => a * b;
 ```
 
 ### Import syntax
-Get a module:
+
+Import default:
 ```
-const mathUtils = require('./math-utils');
+import thing from './url/file'
+```
+
+Import everything in module:
+```
+import * as thing from './url/file'
+```
+
+Import some things in module:
+```
+import { add, multiply } from './url/file'
 ```
