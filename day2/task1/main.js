@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const fs = require('fs')
 const https = require('https');
 const path = require('path')
@@ -34,30 +33,3 @@ fs.readFile(path.join(__dirname, 'urls.json'), (err, data) => {
     });
   });
 });
-=======
-const testFailure = false;
-
-const getData = (options, callback) => {
-  const error = testFailure ? new Error('getData failed') : undefined;
-  setTimeout(() => callback(error, options), 1000);
-};
-
-getData({ a: 42 }, (error, firstData) => {
-  if (error) {
-    console.error(error);
-  } else {
-    getData({ b: 12 }, (error, secondData) => {
-      if (error) {
-        console.error(error);
-      } else {
-        console.log({
-          ...firstData,
-          ...secondData
-        });
-      }
-    });
-  }
-});
-
-// should log { a: 42, b: 12 }
->>>>>>> fe52d8e7f4484ed236d94de5ae7c68a645f31411
