@@ -24,9 +24,22 @@ index.js  6.24 kB       0  [emitted]  main
 ```
 
 4. Check out the file inside the `dist` folder, webpack generated. This is the bundle.
+5. You can run webpack in watch-mode: `npm run build -- --watch`.
 
 ## Tips
 
 - run `npm init`
 - run `npm install webpack babel-core babel-loader --save-dev`
 - replace the test script with 'build'
+
+---
+
+- to run in node:
+  - set target: 'node'
+  - `node ./dist/index.js`
+
+- to run in the browser:
+  - set target: 'web'
+  - enable html-webpack-plugin
+  - `webpack-dev-server`
+  - `http://localhost:8080/static/`
