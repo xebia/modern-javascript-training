@@ -7,15 +7,19 @@ When you're consuming node packages, you should initialize npm in that directory
 This will list all dependencies of this package.
 
 ## Task
+
+0. Make sure you are in the right directory (`cd day1/task4`).
 1. Create a package by running `npm init`. This will ask you a few questions, just press enter a few times.
 2. Add `eslint` as a dependency.
-3. Add a npm-script that will run eslint on the src folder.
-4. Run the script. (see tips)
-5. Fix the issues. *optional* (see tips)
+3. Add an npm script that will run eslint on the src folder.
+4. Run the script (see tips).
+5. Fix the issues *optional* (see tips).
 
 ## Tips
-So eslint without a configuration will do nothing.
-You can either pick a config file from another project you've seen and liked the code-style of. Or you can generate a code-style by:
+
+ESLint without a configuration will do nothing. You can either pick a config file from another project you've seen and
+liked the code style of, or you can generate code style settings by:
+
 1. Install eslint globally `npm install --global eslint`
 2. Run `eslint --init` and awnser the questions.
 

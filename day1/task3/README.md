@@ -3,10 +3,11 @@
 We're going to use CommonJS modules to split our code into smaller units.
 
 ## Task
-Split the codebase into seperate files (modules). Use the CommonJS syntax.
-Run the code by: `node main.js`
 
-## tips:
+Split the codebase into seperate files (modules). Use the CommonJS syntax.
+Run the code by: `node main.js`. Make sure you are in the right directory (`cd day1/task3`).
+
+## Tips
 
 ### Exports syntax:
 
@@ -23,7 +24,7 @@ module.exports = {
 };
 ```
 
-### Import syntax
+### Import syntax:
 
 Get a module:
 ```

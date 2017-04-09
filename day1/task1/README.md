@@ -7,9 +7,10 @@ We're going to install a few global dependencies to get going:
 
 If you already have these things installed (at a last major version) you can skip this step.
 
-## Install instructions:
+## Install instructions
 
 ### Node.js
+
 If you're on linux, you can use your favorite package manager.
 If you're on macOS, you can use brew.
 
@@ -20,6 +21,7 @@ You can validate your install by opening a terminal and run this command:
 `node --version` - this should return `7.7.4` or similar.
 
 ### npm
+
 Node.js will also install npm for you, but it's likely an oldish version.
 To update npm, we can use npm. Run this command:
 `npm install npm --global`
@@ -36,6 +38,7 @@ You can validate your npm installation by running this in a terminal:
 
 ## Task
 
+0. Make sure you are in the right directory (`cd day1/task1`).
 1. Open `main.js` in your editor, and have a look.
 2. Open a terminal and change directory to the `task1` folder.
 3. Run `main.js` in NodeJS by running `node main.js` in the terminal.

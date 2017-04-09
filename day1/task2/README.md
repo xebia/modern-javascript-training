@@ -12,10 +12,11 @@ We're going to use the following concepts:
 Write an object factory function.
 The object should contain a method `say` which will print the name of the object and a message given.
 
-1. Open `main.js`
-2. Finish the implementation of `personFactory`
+0. Make sure you are in the right directory (`cd day1/task2`).
+1. Open `main.js`.
+2. Finish the implementation of `personFactory`.
 
-You'll know you've succesfully run the script if this is printed:
+You'll know you've successfully run the script if this is printed:
 ```
 Gert said "Hello!" at 13:37:00
 Jan said "Hello!" at 13:37:00

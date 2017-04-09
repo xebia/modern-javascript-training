@@ -1,22 +1,26 @@
 # Task 5: Unit testing JavaScript modules
 
-We're going to be unittesting some modules using a test-runner called 'Jest'.
-There a many options when looking for a testrunners / testframeworks.
-Jest stands out for is scalability and great developer experience, and powerfull features.
+We're going to be unit testing some modules using a test runner called 'Jest'.
+There are many options when looking for a test runner / test framework.
+Jest stands out for its scalability, great developer experience and powerful features.
 
 ## Task
+
+0. Make sure you are in the right directory (`cd day1/task5`).
 1. Install dependencies by `npm install`.
 2. Run the test script defined in `package.json`.
 3. Run the test script in watch mode (see tips).
-4. Follow along with the intructions
+4. Follow along with the intructions.
 
 ## Tips
-You can add parameters to an defined npm script like so:
+
+You can add parameters to a defined npm script like so:
 ```
 npm run test -- --watch
 ```
 
-## notes
+## Notes
+
 1. watch mode
 2. jasmine matchers (sum.test.js)
 3. mocking (user.test.js)
