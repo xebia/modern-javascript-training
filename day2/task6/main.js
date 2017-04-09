@@ -1,4 +1,8 @@
-const animate = window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || function (callback) { window.setTimeout(callback, 1000 / 60) };
+const animate = window.requestAnimationFrame
+  || window.webkitRequestAnimationFrame
+  || window.mozRequestAnimationFrame
+  || function (callback) { window.setTimeout(callback, 1000 / 60) };
+
 const canvas = document.createElement("canvas");
 const context = canvas.getContext("2d");
 canvas.width = 400;
@@ -27,11 +31,11 @@ const Paddle = (x, y, width, height) => ({
     this.x_speed = x;
     this.y_speed = y;
     if (this.x < 0) {
-        this.x = 0;
-        this.x_speed = 0;
+      this.x = 0;
+      this.x_speed = 0;
     } else if (this.x + this.width > 400) {
-        this.x = 400 - this.width;
-        this.x_speed = 0;
+      this.x = 400 - this.width;
+      this.x_speed = 0;
     }
 	}
 });
@@ -125,7 +129,7 @@ const Ball = (x, y) => ({
       }
     }
 	}
-})
+});
 
 const player = Player();
 const computer = Computer();

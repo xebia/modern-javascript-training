@@ -18,3 +18,4 @@
 - [Task 3: Working with Arrays](day2/task3#readme)
 - [Task 4: Avoiding mutation](day2/task4#readme)
 - [Task 5: Composing functions](day2/task5#readme)
+- [Task 6: Refactoring to modules](day2/task6#readme)
