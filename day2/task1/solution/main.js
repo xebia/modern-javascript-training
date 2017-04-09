@@ -12,8 +12,8 @@ const readFile = (path) => new Promise((resolve, reject) => {
 const parseJSON = (data) => new Promise((resolve, reject) => {
   try {
     resolve(JSON.parse(data.toString()));
-  } catch (ex) {
-    reject(ex);
+  } catch (e) {
+    reject(e);
   }
 });
 

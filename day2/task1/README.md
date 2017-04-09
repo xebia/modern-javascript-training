@@ -16,6 +16,7 @@ Provided is a piece of code that:
 4. Use the Promise constructor to wrap callback-based operations into a Promise.
 
 Your final script should look something like:
+
 ```js
 readFile(path)
   .then(parseJSON)
