@@ -1,0 +1,29 @@
+{
+    "modulePathIgnorePatterns": [
+      "examples/.*",
+      "packages/.*/build",
+      "packages/jest-runtime/src/__tests__/test_root.*",
+      "website/.*",
+      "integration_tests/runtime-internal-module-registry/__mocks__"
+    ],
+    "collectCoverageFrom": [
+      "**/*.js",
+      "!**/bin/**",
+      "!**/cli/**",
+      "!**/perf/**",
+      "!**/__mocks__/**",
+      "!**/__tests__/**",
+      "!integration_tests/**"
+    ],
+    "collectCoverage": true,
+    "coverageReporters": [
+      "lcov",
+      "text-summary"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "testMatch": [
+      "**/*.test.js"
+    ]
+  }

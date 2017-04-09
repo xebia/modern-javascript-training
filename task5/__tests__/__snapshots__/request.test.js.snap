@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the request module should call http.get correctly 1`] = `
+Array [
+  Object {
+    "path": "unittest_url",
+  },
+  [Function],
+]
+`;

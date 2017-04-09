@@ -28,3 +28,4 @@ build/Release
 
 # Optional REPL history
 .node_repl_history
+task5/node_modules
