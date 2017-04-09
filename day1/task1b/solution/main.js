@@ -24,7 +24,7 @@ const story = [
   whiteline(),
 ];
 
-function main () {
+const main = () => {
   story.forEach(text => print(text));
 }
 
