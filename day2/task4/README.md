@@ -6,4 +6,4 @@ code that you'd normally write if you have an object-oriented mindset, and rewri
 ## Task
 
 Refactor a piece of code to avoid object mutation. Do not mutate any object properties, use shallow copies instead.
-You’ll notice that mutation can’t always be avoided.
+You’ll notice that mutation can’t always be avoided, but it can be contained.

@@ -12,6 +12,7 @@ const cart = {
   subtotal: 0,
   vat: 0,
   total: 0,
+  // TODO addItem should be a pure function
   addItem(item) {
     this.items.push(item);
     this.subtotal += item.price;
