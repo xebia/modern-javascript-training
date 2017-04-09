@@ -1,4 +1,5 @@
-# Task 4: Unittesting javascript modules
+# Task 5: Unit testing JavaScript modules
+
 We're going to be unittesting some modules using a test-runner called 'Jest'.
 There a many options when looking for a testrunners / testframeworks.
 Jest stands out for is scalability and great developer experience, and powerfull features.

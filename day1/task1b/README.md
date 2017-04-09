@@ -1,4 +1,4 @@
-# Task 1: Changing to code to use new syntax
+# Task 1b: Changing to code to use new syntax
 
 We're going to refactor the code a bit to use a few new syntax:
 

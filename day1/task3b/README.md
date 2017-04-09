@@ -1,4 +1,4 @@
-# Task 3b: rewrite the CommonJS to ES modules
+# Task 3b: Rewrite the CommonJS to ES modules
 
 CommonJS only works in 1 environment, using ES modules gives us the flexibility of running in any environment.
 Sadly we need to transpile them right now, since they are not yet natively supported yet. We use `babel` for this.
