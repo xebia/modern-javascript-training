@@ -1,4 +1,4 @@
-# Task 1: Refactor to Promises
+# Task 2: Bundling with webpack
 
 We're going to bundle small javascript app, using webpack.
 

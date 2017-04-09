@@ -1,4 +1,4 @@
-# Task 1b : Composing promises
+# Task 1b: Composing promises
 
 Expanding on what we've learned from chaing promises, we can also compose promises.
 
