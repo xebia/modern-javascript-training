@@ -4,8 +4,9 @@ We're going to use CommonJS modules to split our code into smaller units.
 
 ## Task
 
-Split the codebase into seperate files (modules). Use the CommonJS syntax.
-Run the code by: `node main.js`. Make sure you are in the right directory (`cd day1/task3`).
+0. Make sure you are in the right directory (`cd day1/task3`).
+1. Split the codebase into seperate files (modules). Use the CommonJS syntax.
+2. Run the code by: `node main.js`. 
 
 ## Tips
 

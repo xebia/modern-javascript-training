@@ -14,8 +14,9 @@ npm install --global babel-node
 
 ## Task
 
-Rewrite the CommonJS syntax to ES modules syntax. The functionality should stay unchanged.
-Run the code by: `babel-node main.js`. Make sure you are in the right directory (`cd day1/task3b`).
+0. Make sure you are in the right directory (`cd day1/task3b`).
+1. Rewrite the CommonJS syntax to ES modules syntax. The functionality should stay unchanged.
+2. Run the code by: `babel-node main.js`.
 
 ## Tips
 

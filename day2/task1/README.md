@@ -1,6 +1,8 @@
 # Task 1: Refactor to Promises
 
-We're going to rewrite a piece of asynchronous code from using callbacks to a promise chain.
+We're going to get comfortable using promises. Callbacks are good and all, but promises chain and compose much better!
+Refactor the code from a pyramid of doom to a understandable promise chain.
+
 Provided is a piece of code that:
 - Reads a file from disk
 - Parses the file contents as JSON
