@@ -1,4 +1,4 @@
-# Task 4: Composing functions
+# Task 5: Composing functions
 
 Let's experiment with functional composition by combining functions using the `flow` function (also known as `pipe` or `composeRight`).
 
