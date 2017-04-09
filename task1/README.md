@@ -1,15 +1,15 @@
-# Task 1: Running a script in NodeJS
+# Task 1: Running a script in Node.js
 
 We're going to install a few global dependencies to get going:
 
-- NodeJS (7.7.4)
-- NPM (4.4.1)
+- Node.js (7.7.4)
+- npm (4.4.1)
 
 If you already have these things installed (at a last major version) you can skip this step.
 
-## install instructions:
+## Install instructions:
 
-### NodeJS
+### Node.js
 If you're on linux, you can use your favorite package manager.
 If you're on macOS, you can use brew.
 
@@ -19,8 +19,8 @@ https://nodejs.org/en/download/current/
 You can validate your install by opening a terminal and run this command:
 `node --version` - this should return `7.7.4` or similar.
 
-### NPM
-NodeJS will also install npm for you, but it's likely an oldish version.
+### npm
+Node.js will also install npm for you, but it's likely an oldish version.
 To update npm, we can use npm. Run this command:
 `npm install npm --global`
 

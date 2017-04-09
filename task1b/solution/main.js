@@ -1,4 +1,4 @@
-const welcome () => "Hello welcome to the modern javascript training!";
+const welcome = () => "Hello welcome to the modern javascript training!";
 
 const authors_data = [
   "Gert Hengeveld",
