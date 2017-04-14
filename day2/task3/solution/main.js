@@ -7,12 +7,24 @@ const people = [
   { name: "Laila Murazik", age: 36, gender: "f" }
 ];
 
-const result = people
-  .filter(p => p.gender === "m")
-  .map(p => p.age)
-  .reduce((sum, age, index, array) => {
-    sum = sum + age;
-    return index === array.length - 1 ? sum / array.length : sum;
-  });
+const men = people.filter(p => p.gender === "m");
+const sum = men.reduce((sum, man) => sum + man.age, 0);
+const result = sum / men.length;
+
+// Alternatively, avoiding intermediate values:
+// const result = people
+//   .filter(p => p.gender === "m")
+//   .map(p => p.age)
+//   .reduce((sum, age, index, array) => {
+//     sum = sum + age;
+//     return index === array.length - 1 ? sum / array.length : sum;
+//   });
+//
+// Or, using a recursive function:
+// const average = ([number, ...rest], { sum = 0, num = 0 } = {}) => {
+//   if (!number) return sum / num;
+//   return average(rest, { sum: sum + number, num: num + 1 });
+// }
+// const result = average(people.filter(p => p.gender === "m").map(p => p.age))
 
 console.log(result); // => 29
