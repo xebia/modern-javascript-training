@@ -1,17 +1,3 @@
 {
-  "presets": [
-    "stage-2",
-    ["env", {
-      "targets": {
-        "chrome": 52
-      },
-      "modules": false,
-      "loose": true
-    }]
-  ],
-  "env": {
-    "test": {
-      "plugins": ["transform-es2015-modules-commonjs"]
-    }
-  }
+  "presets": ["@babel/preset-env", "@babel/preset-react"]
 }
