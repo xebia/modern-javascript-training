@@ -32,3 +32,5 @@ task5/node_modules
 day2/task2/node_modules
 day2/task2/dist
 day2/task6/node_modules
+
+package-lock.json
